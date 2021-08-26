@@ -39,11 +39,11 @@ sharp_kernel
 |   +-- ...
 ```
 - Execute the following commands from the terminal/command prompt:
-
+```
     python convert.py -a args_partial -R sharp_kernel -o partial
     python convert.py -a args_full -R sharp_kernel -o full
     python dicom_overlay.py -i0 sharp_kernel -i1 full -i2 partial -o converted
-
+```
 - The first line creates a (temporary) directory named *partial* which contains converted images by the partial model (that is, CT values are cropped to -300 to 300 HU).
 - The second line creates a (temporary) directory named *full* which contains converted images by the full model.
 - The third line creates a directory named *converted* which contains the final converted images obtained by fusing the above two.
