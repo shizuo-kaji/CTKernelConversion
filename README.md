@@ -2,8 +2,9 @@ Python code for converting sharp-kernel reconstructed CT images to soft-kernel i
 =============
 
 This is a companion code for the paper
-- *Kernel conversion for chest-computed tomography using deep learning-based image-to-image translation* 
-by Naoya Tanabe, Shizuo Kaji, Hiroshi Shima, Yusuke Shiraishi, Tsuyoshi Oguma, Susumu Sato, Toyohiro Hirai
+- [Kernel Conversion for Robust Quantitative Measurements of Archived Chest Computed Tomography Using Deep Learning-Based Image-to-Image Translation](https://www.frontiersin.org/articles/10.3389/frai.2021.769557/abstract)
+by Naoya Tanabe, Shizuo Kaji, Hiroshi Shima, Yusuke Shiraishi, Tsuyoshi Oguma, Susumu Sato, Toyohiro Hirai,
+Frontiers in Artificial Intelligence Medicine and Public Health, DOI: 10.3389/frai.2021.769557
 
 The code is based on 
 - [Image-to-image translation by CNNs trained on paired data](https://github.com/shizuo-kaji/PairedImageTranslation) which is described in the paper
